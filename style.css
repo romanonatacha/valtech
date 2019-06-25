@@ -1,0 +1,82 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.logo-head {
+    width: 80%;
+    margin: 0 auto;
+    padding: 28px 0;
+}
+
+.logo-head ul {
+    list-style: none;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+.logo-head ul li {
+    display: inline-block;
+}
+
+.btn-socio {
+    background: #7dbd0f;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: white;
+}
+
+.btn-socio:hover {
+    background: #689e0b;
+    color: white;
+}
+
+.logo-img {
+    width: 170px;
+}
+
+.header-button {
+    float: right;
+}
+
+.nav-bar {
+    background-color: #033c7b;
+    padding: 0;
+}
+
+.menu {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.menu li {
+    padding: 16px;
+}
+
+.menu li:hover {
+    background-color: #0086cf;
+    cursor: pointer;
+}
+
+.menu li a {
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+}
+
+.hamburguer-menu {
+    padding: 16px 50px 8px;
+}
+
+.hamburguer-icon:before {
+    font-family: "Font Awesome 5 Free";
+    content: '\f0c9';
+    font-weight: 900;
+    color: white;
+}
+
+/* media queries */
+@media screen and (min-width: 998px) {
+    .logo-img {
+        width: 230px;
+    }
+}
