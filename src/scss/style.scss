@@ -1,0 +1,10 @@
+@import '_variables';
+@import '_mixins';
+
+@import '_header';
+@import '_mainContent';
+@import '_footer';
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}

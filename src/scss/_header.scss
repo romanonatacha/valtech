@@ -1,0 +1,89 @@
+.logo-head {
+    padding: 28px 0;
+
+    @include for-phone-only {
+        padding: 28px $gutter;
+    }
+    
+    
+    ul {
+        list-style: none;
+        margin-bottom: 0;
+        padding: 0;
+        
+        li {
+            display: inline-block;
+
+            .logo-img {
+                width: 170px;
+
+                @include for-tablet-landscape-up {
+                    width: 230px;
+                }
+            }
+        }
+
+        .header-button {
+            float: right;
+            
+            .btn-socio {
+                background: $light-green;
+                font-weight: 800;
+                text-transform: uppercase;
+                color: white;
+
+                @include for-phone-only {
+                    font-size: 14px;
+                }
+                
+                &:hover {
+                    background: darken($light-green, 10%);
+                    color: white;
+                }
+            }
+        }
+    }
+}
+
+.nav-bar {
+    background-color: $dark-blue;
+    padding: 0;
+    z-index: 9;
+
+    .hamburguer-menu {
+        padding: $gutter 50px ($gutter / 2);
+        
+        .hamburguer-icon:before {
+            font-family: "Font Awesome 5 Free";
+            content: '\f0c9';
+            font-weight: 900;
+            color: white;
+        }
+    }
+    
+    .menu li {
+        padding: $gutter;
+        
+        &:hover {
+            background-color: $light-blue;
+            cursor: pointer;
+        }
+        
+        a {
+            text-transform: uppercase;
+            color: white;
+            font-weight: bold;
+        }
+    }
+}
+
+.banner-image {
+    background: url('../images/banner-header.png');
+    background-size: cover;
+    background-position: center;
+    height: 483px;
+    
+    @include for-phone-only {
+        height: 275px;
+    }
+}
