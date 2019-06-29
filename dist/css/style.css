@@ -159,22 +159,76 @@
 .socio-form .socio-form-image {
   background: url("../images/banner-news.png");
   background-size: cover;
-  background-position: center;
-  height: 483px; }
+  background-position: center; }
   .socio-form .socio-form-image .text {
     color: white;
     font-weight: bold;
-    padding: 140px 0; }
+    padding: 140px 0;
+    text-align: center; }
+    @media (max-width: 599px) {
+      .socio-form .socio-form-image .text {
+        padding-left: 16px; } }
     .socio-form .socio-form-image .text .line-1 {
-      font-size: 30px; }
+      font-size: 24px; }
     .socio-form .socio-form-image .text .line-2 {
-      font-size: 42px;
+      font-size: 28px;
       text-transform: uppercase;
-      line-height: 54px; }
+      line-height: 44px; }
     .socio-form .socio-form-image .text .line-3 {
-      font-size: 30px; }
+      font-size: 24px; }
   .socio-form .socio-form-image .form {
-    background-color: #f36f1f; }
+    background-color: #f36f1f;
+    padding: 45px 0; }
+    .socio-form .socio-form-image .form .form-title {
+      text-align: center;
+      font-size: 30px;
+      padding: 16px 40px;
+      color: white;
+      font-weight: bold; }
+      @media (max-width: 599px) {
+        .socio-form .socio-form-image .form .form-title {
+          font-size: 20px; } }
+    .socio-form .socio-form-image .form form .form-input {
+      display: block;
+      width: 70%;
+      margin: 16px auto;
+      background-color: transparent;
+      border: solid 1px white;
+      color: white;
+      padding: 0 16px;
+      font-weight: bold; }
+      .socio-form .socio-form-image .form form .form-input.placeholder {
+        color: white;
+        font-size: 16px;
+        font-weight: normal; }
+      .socio-form .socio-form-image .form form .form-input:-moz-placeholder {
+        color: white;
+        font-size: 16px;
+        font-weight: normal; }
+      .socio-form .socio-form-image .form form .form-input::-moz-placeholder {
+        color: white;
+        font-size: 16px;
+        font-weight: normal; }
+      .socio-form .socio-form-image .form form .form-input:-ms-input-placeholder {
+        color: white;
+        font-size: 16px;
+        font-weight: normal; }
+      .socio-form .socio-form-image .form form .form-input::-webkit-input-placeholder {
+        color: white;
+        font-size: 16px;
+        font-weight: normal; }
+      .socio-form .socio-form-image .form form .form-input:focus {
+        background-color: #ec610d; }
+    .socio-form .socio-form-image .form form .form-button {
+      display: block;
+      width: 70%;
+      margin: 16px auto;
+      background-color: #2982e9;
+      text-transform: uppercase;
+      color: white;
+      font-weight: bold; }
+      .socio-form .socio-form-image .form form .form-button:hover {
+        background-color: #1569ca; }
 
 .footer-info {
   background-color: #f5f5f5;
@@ -195,6 +249,9 @@ footer {
         display: inline-block;
         padding: 0 8px;
         font-size: 20px; }
+        @media (max-width: 599px) {
+          footer .institutional ul li {
+            font-size: 16px; } }
         footer .institutional ul li a {
           color: #393939; }
   footer .social {
@@ -208,6 +265,9 @@ footer {
         font-size: 28px;
         cursor: pointer;
         color: #393939; }
+        @media (max-width: 599px) {
+          footer .social ul li {
+            padding: 0 16px; } }
         footer .social ul li:hover {
           color: #033c7b; }
   footer hr {
