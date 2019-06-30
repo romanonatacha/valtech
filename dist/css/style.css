@@ -27,6 +27,11 @@
         .logo-head ul .header-button .btn-socio:hover {
           background: #5e8e0b;
           color: white; }
+        .logo-head ul .header-button .btn-socio a {
+          color: white;
+          text-decoration: none; }
+          .logo-head ul .header-button .btn-socio a:hover {
+            color: white; }
 
 .nav-bar {
   background-color: #033c7b;
@@ -42,7 +47,7 @@
   .nav-bar .menu li {
     padding: 16px; }
     .nav-bar .menu li:hover {
-      background-color: #196fb5;
+      background-color: #2982e9;
       cursor: pointer; }
     .nav-bar .menu li a {
       text-transform: uppercase;
