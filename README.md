@@ -7,7 +7,7 @@ Landing page example.
 
 ## Demo
 
-https://romanonatacha.github.io/valtech-emm/
+https://romanonatacha.github.io/valtech/
 
 ## Run the Application localy
 
